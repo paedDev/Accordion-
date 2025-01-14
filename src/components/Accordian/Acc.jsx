@@ -1,4 +1,3 @@
-
 import data from './data'
 import React, { useState } from 'react'
 
