@@ -30,7 +30,7 @@ const Acc = () => {
     }
 
     return (
-        <div className='bg-gray-300 container mx-auto min-h-screen flex flex-col items-center justify-center'>
+        <div className='container mx-auto min-h-screen flex flex-col items-center justify-center'>
             <div>
                 <button className='bg-gray-500 text-white px-6 py-4 rounded-xl font-bold'
                     onClick={() => handleEnableMultipleSelect()}>Enable Multi Select</button>
