@@ -10,6 +10,14 @@ const useLocalStorage = (key, defaultValue) => {
             console.log(err);
             return defaultValue
         }
+        // try {
+        //     currentValue = JSON.parse(localStorage.getItem(key) || String(defaultValue))
+        // } catch (error) {
+        //     console.log(error);
+        //     currentValue = defaultValue
+
+        // }
+        // return currentValue
     })
     useEffect(() => {
         localStorage.setItem(key, JSON.stringify(value))
