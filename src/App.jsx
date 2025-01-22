@@ -14,6 +14,13 @@ import ImageSlide from './components/ImageSlider/ImageSlide'
 import QrCode from './components/qr-code/QrCode'
 import Light2DarkMode from './components/Light-dark-mode/Light2DarkMode'
 import LightDarkMode from './components/LDmode/LightDarkMode'
+import LightToDark from './components/LDM/LightToDark'
+import CustomScroll from './components/Custom Scroll Indicator/CustomScroll'
+import CS from './components/Custom Scroll Indicator/CS'
+import AccordianP2 from './components/Accordian/AccordianP2'
+import Tabs from './components/Custom Tabs/Tabs'
+import TabTest from './components/Custom Tabs/tab-test'
+import Tabtest from './components/Custom-Tabs/tab-test'
 const App = () => {
   return (
     <>
@@ -27,8 +34,9 @@ const App = () => {
       {/* <TreeView menus={menus} /> */}
       {/* <ImageSlide url={"https://picsum.photos/v2/list"} page={"20"} limit={"10"} /> */}
       {/* <QrCode /> */}
-      <LightDarkMode />
-
+      {/* <CS url={'https://dummyjson.com/products?limit=100'} /> */}
+      {/* <TabTest /> */}
+      <Tabtest />
     </>
   )
 }
