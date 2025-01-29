@@ -21,6 +21,12 @@ import AccordianP2 from './components/Accordian/AccordianP2'
 import Tabs from './components/Custom Tabs/Tabs'
 import TabTest from './components/Custom Tabs/tab-test'
 import Tabtest from './components/Custom-Tabs/tab-test'
+import ModalTest from './components/ModalComponent/Modal-test'
+import TabsTest2 from './components/TabsComponent/Tabs-test'
+
+import GithubProfileFinder from './components/Github Finder/GithubProfileFinder'
+import ColorPicker from './components/ColorPicker/ColorPicker'
+// import ModalTest from './components/Custom-modal-popup/modal-test'
 const App = () => {
   return (
     <>
@@ -36,7 +42,7 @@ const App = () => {
       {/* <QrCode /> */}
       {/* <CS url={'https://dummyjson.com/products?limit=100'} /> */}
       {/* <TabTest /> */}
-      <Tabtest />
+      <ColorPicker />
     </>
   )
 }
