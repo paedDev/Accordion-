@@ -26,6 +26,12 @@ import TabsTest2 from './components/TabsComponent/Tabs-test'
 
 import GithubProfileFinder from './components/Github Finder/GithubProfileFinder'
 import ColorPicker from './components/ColorPicker/ColorPicker'
+import SearchAuto from './components/Search Auto/SearchAuto'
+import Search from './components/AutoComplete/Search'
+
+import TictTactToe from './components/Tic-tact-toe/TictTactToe'
+import TTT from './components/Tic-tact-toe/TTT'
+
 // import ModalTest from './components/Custom-modal-popup/modal-test'
 const App = () => {
   return (
@@ -42,7 +48,7 @@ const App = () => {
       {/* <QrCode /> */}
       {/* <CS url={'https://dummyjson.com/products?limit=100'} /> */}
       {/* <TabTest /> */}
-      <ColorPicker />
+      <TTT />
     </>
   )
 }
