@@ -31,6 +31,7 @@ import Search from './components/AutoComplete/Search'
 
 import TictTactToe from './components/Tic-tact-toe/TictTactToe'
 import TTT from './components/Tic-tact-toe/TTT'
+import Index from './components/Tic-tact-toe'
 
 // import ModalTest from './components/Custom-modal-popup/modal-test'
 const App = () => {
@@ -48,7 +49,7 @@ const App = () => {
       {/* <QrCode /> */}
       {/* <CS url={'https://dummyjson.com/products?limit=100'} /> */}
       {/* <TabTest /> */}
-      <TTT />
+      <Index />
     </>
   )
 }
