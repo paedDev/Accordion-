@@ -44,13 +44,13 @@ const ColorPicker = () => {
         setTypeOfColor("rgb")
     }
     return (
-        <div className='min-h-screen w-4/5 m-auto p-20' style={{ backgroundColor: color }}>
+        <div className='min-h-screen w-4/5 m-auto p-20 mb-5' style={{ backgroundColor: color }}>
             <div>
-                <div className='text-white flex justify-center space-x-4'>
-                    <button className='bg-white text-black px-8 py-3 roundedsm'
+                <div className='text-white flex items-center flex-col lg:flex-row justify-center lg:space-x-4 space-y-3 lg:space-y-0'>
+                    <button className='bg-white text-black px-8 py-3 rounded-sm'
                         onClick={setHex} >Hex</button>
-                    <button className='bg-white text-black px-8 py-3 roundedsm' onClick={setRgb} >RGB</button>
-                    <button className='bg-white text-black px-8 py-3 roundedsm'
+                    <button className='bg-white text-black px-8 py-3 rounded-sm' onClick={setRgb} >RGB</button>
+                    <button className='bg-white text-black px-8 py-3 rounded-sm'
                         onClick={typeOfColor === "hex"
                             ? handleHexValues
                             : handleRGBValues}

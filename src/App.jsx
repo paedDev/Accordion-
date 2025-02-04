@@ -35,6 +35,8 @@ import TTT from './components/Tic-tact-toe/TTT'
 import TabTest from './components/Tabs/TabTestNew'
 import ModalTest from './components/PopUp/ModalTest'
 import Index from './components/GithubFinder'
+import FeatureFlagGlobalState from './components/feature-flag/context'
+import FeatureFlags from './components/feature-flag'
 
 // import ModalTest from './components/Custom-modal-popup/modal-test'
 const App = () => {
@@ -52,7 +54,12 @@ const App = () => {
       {/* <QrCode /> */}
       {/* <CS url={'https://dummyjson.com/products?limit=100'} /> */}
       {/* <TabTest /> */}
-      <Index />
+
+
+      {/* Feature Flag Implementation */}
+      <FeatureFlagGlobalState>
+        <FeatureFlags />
+      </FeatureFlagGlobalState>
 
     </>
   )

@@ -81,7 +81,7 @@ const TTT = () => {
 
 
             </div>
-            <div className="flex flex-col text-center mt-5 space-y-4">
+            <div className="flex flex-col text-center mt-5 space-y-4 py-10">
                 <h1>{status}</h1>
                 <div className=''>
                     <button onClick={Restart} className='px-8 py-2 bg-green-400 text-green-700' >Restart</button>
