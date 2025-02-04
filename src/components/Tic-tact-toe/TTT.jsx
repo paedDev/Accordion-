@@ -47,7 +47,7 @@ const TTT = () => {
 
     useEffect(() => {
         if (!getWinner(squares) && squares.every(item => item !== "")) {
-            setSquares("This is a draw! Please restart the game")
+            setStatus("This is a draw! Please restart the game")
         } else if (getWinner(squares)) {
             setStatus(`Winner is ${getWinner(squares)}. Please restart the game`)
         } else {
