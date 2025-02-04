@@ -18,10 +18,10 @@ import LightToDark from './components/LDM/LightToDark'
 import CustomScroll from './components/Custom Scroll Indicator/CustomScroll'
 import CS from './components/Custom Scroll Indicator/CS'
 import AccordianP2 from './components/Accordian/AccordianP2'
-import Tabs from './components/Custom Tabs/Tabs'
-import TabTest from './components/Custom Tabs/tab-test'
+
+
 import Tabtest from './components/Custom-Tabs/tab-test'
-import ModalTest from './components/ModalComponent/Modal-test'
+
 import TabsTest2 from './components/TabsComponent/Tabs-test'
 
 import GithubProfileFinder from './components/Github Finder/GithubProfileFinder'
@@ -31,7 +31,10 @@ import Search from './components/AutoComplete/Search'
 
 import TictTactToe from './components/Tic-tact-toe/TictTactToe'
 import TTT from './components/Tic-tact-toe/TTT'
-import Index from './components/Tic-tact-toe'
+
+import TabTest from './components/Tabs/TabTestNew'
+import ModalTest from './components/PopUp/ModalTest'
+import Index from './components/GithubFinder'
 
 // import ModalTest from './components/Custom-modal-popup/modal-test'
 const App = () => {
@@ -50,6 +53,7 @@ const App = () => {
       {/* <CS url={'https://dummyjson.com/products?limit=100'} /> */}
       {/* <TabTest /> */}
       <Index />
+
     </>
   )
 }
