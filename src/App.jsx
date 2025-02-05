@@ -35,9 +35,8 @@ import TTT from './components/Tic-tact-toe/TTT'
 import TabTest from './components/Tabs/TabTestNew'
 import ModalTest from './components/PopUp/ModalTest'
 import Index from './components/GithubFinder'
-import FeatureFlagGlobalState from './components/feature-flag/context'
-import FeatureFlags from './components/feature-flag'
-
+import FeatureFlags from './components/FF'
+import FeatureFlagGlobalState from './components/FF/context'
 // import ModalTest from './components/Custom-modal-popup/modal-test'
 const App = () => {
   return (
@@ -60,7 +59,6 @@ const App = () => {
       <FeatureFlagGlobalState>
         <FeatureFlags />
       </FeatureFlagGlobalState>
-
     </>
   )
 }
