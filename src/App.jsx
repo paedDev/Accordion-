@@ -39,6 +39,7 @@ import FeatureFlags from './components/FF'
 import FeatureFlagGlobalState from './components/FF/context'
 import TicTacToe from './components/Practice/TicTacToe/TicTacToe'
 // import ModalTest from './components/Custom-modal-popup/modal-test'
+import UseFetchHookTest from './components/UseFetch Custom hook/Test'
 const App = () => {
   return (
     <>
@@ -60,7 +61,7 @@ const App = () => {
 
 
       {/* tictactoe */}
-      <TicTacToe />
+      <UseFetchHookTest />
     </>
   )
 }
