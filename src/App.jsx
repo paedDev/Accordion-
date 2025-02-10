@@ -37,6 +37,7 @@ import ModalTest from './components/PopUp/ModalTest'
 import Index from './components/GithubFinder'
 import FeatureFlags from './components/FF'
 import FeatureFlagGlobalState from './components/FF/context'
+import TicTacToe from './components/Practice/TicTacToe/TicTacToe'
 // import ModalTest from './components/Custom-modal-popup/modal-test'
 const App = () => {
   return (
@@ -56,9 +57,10 @@ const App = () => {
 
 
       {/* Feature Flag Implementation */}
-      <FeatureFlagGlobalState>
-        <FeatureFlags />
-      </FeatureFlagGlobalState>
+
+
+      {/* tictactoe */}
+      <TicTacToe />
     </>
   )
 }
